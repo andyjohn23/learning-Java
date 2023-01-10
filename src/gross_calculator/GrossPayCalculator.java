@@ -1,5 +1,4 @@
 package gross_calculator;
-
 import java.util.Scanner;
 
 public class GrossPayCalculator {
