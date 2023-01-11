@@ -11,8 +11,7 @@ public class SwitchExpressions {
 
         String message = switch (grade){
             case "A" -> "Excellent job!";
-            case "B" -> "Great job!";
-            case "C" -> "Good job!";
+            case "B", "C" -> "Great job!";
             case "D" -> "Put more effort!";
             case "E" -> "Pull up your socks!";
             default -> "Please enter a correct letter grade eg. A";
