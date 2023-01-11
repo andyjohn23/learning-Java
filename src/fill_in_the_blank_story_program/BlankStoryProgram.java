@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class BlankStoryProgram {
     public static void main(String[] args){
+        System.out.println("Let's create a story...");
         String adjective = "";
         System.out.println("Enter any adjective eg. wet");
         Scanner scanner = new Scanner(System.in);
