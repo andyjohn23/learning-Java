@@ -20,5 +20,13 @@ public class SalaryCalculator {
         int sales = scanner.nextInt();
         scanner.close();
 
+//        Quick detour for the bonus earners
+        if(sales > quota){
+            salary = salary + bonus;
+        }
+
+//        Output results
+        System.out.println("The employee's pay is $" + salary);
+
     }
 }
