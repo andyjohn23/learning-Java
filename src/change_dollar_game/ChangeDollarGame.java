@@ -37,10 +37,10 @@ public class ChangeDollarGame {
             System.out.println("Congratulations, YOU'VE WON\nyour total change was $" + totalValue);
         }else if(totalValue > winValue){
             double getGapNumberOver = totalValue - winValue;
-            System.out.println("Sorry you've lost, you've exceeded by $" + getGapNumberOver + ".");
+            System.out.println("Sorry you've lost, you've exceeded by $" + String.format("%.2f", getGapNumberOver)  + ".");
         }else {
             double getGapNumberUnder = winValue - totalValue;
-            System.out.println("Sorry you've lost, you're short by $" + getGapNumberUnder + ".");
+            System.out.println("Sorry you've lost, you're short by $" + String.format("%.2f", getGapNumberUnder) + ".");
         }
 
     }
