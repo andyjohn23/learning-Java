@@ -25,7 +25,7 @@ public class ChangeDollarGame {
         scanner.close();
 
 //        logic part
-//        change rates
+//        cents change rate
         double convertedNickels = getNickels * defaultNickels;
         double convertedDimes = getDimes * defaultDime;
         double convertedQuarters = getQuarters * defaultQuarters;
