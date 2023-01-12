@@ -11,8 +11,9 @@ import java.util.Scanner;
 
 public class AddNumbers {
     public static void main(String[] args){
-        int defaultValue = 0;
         Scanner scanner = new Scanner(System.in);
+
+        int defaultValue = 0;
         do{
             System.out.println("Enter the first number");
             double getNUmber1 = scanner.nextDouble();
